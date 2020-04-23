@@ -34,7 +34,6 @@ public class main {
 		}
 		
 		//owo
-		//otro mas pero a ver si va
 	}
 
 }
