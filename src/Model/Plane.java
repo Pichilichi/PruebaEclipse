@@ -5,6 +5,7 @@ public class Plane {
 	private String Country,Manufacturer,Length,Height,Name,Nickname;
 	private int Year,MaxSpeed;
 	private float Weight,MaxWeight;
+	private boolean sigue_operando;
 	
 	public Plane(String country, String manufacturer, String length, String height, String name, String nickname, float weight, float maxWeight, int year,
 			int maxSpeed) {

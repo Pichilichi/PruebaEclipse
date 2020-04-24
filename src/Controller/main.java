@@ -34,6 +34,7 @@ public class main {
 		}
 		
 		//owo
+		//Fua va automatico el visual code
 	}
 
 }
