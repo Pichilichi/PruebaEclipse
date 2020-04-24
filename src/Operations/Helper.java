@@ -15,4 +15,11 @@ public class Helper {
 	public static void newMaxSpeed(Plane p, int sp) {
 		p.setMaxSpeed(sp);
 	}
+
+	public static void stillOperating(Plane p,String still){
+		if(still.equalsIgnoreCase("Yes"))
+			p.setOperating(true);
+		else
+			p.setOperating(false);
+	}
 }

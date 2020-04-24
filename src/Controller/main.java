@@ -11,7 +11,7 @@ public class main {
 		ArrayList<Plane> plane_list = new ArrayList<Plane>();
 		
 		Plane p1 = new Plane("Germany", "Junkers", "11,1m", "3,9m", 
-				"Junkers Ju 87D", "Stuka",2810,5670,1941,354);
+				"Junkers Ju 87D", "Stuka",2810,5670,1941,354,false);
 		
 		System.out.println(p1.toString());
 		Helper.newMaxSpeed(p1, 344);
@@ -20,9 +20,9 @@ public class main {
 		System.out.println(p1.toString());
 
 		Plane p2 = new Plane("Russia", "Yakovlev", "8,48m", "2,64m", 
-				"Yakovlev Yak-1", "Yak-1",2316,2884,1940,592);
+				"Yakovlev Yak-1", "Yak-1",2316,2884,1940,592,false);
 		Plane p3 = new Plane("United States of America", "North American Aviation", "9,83m", "11,28m", 
-				"North-American P-51 Mustang", "P-51",3465,4175,1942,580);
+				"North-American P-51 Mustang", "P-51",3465,4175,1942,580,true);
 		
 		plane_list.add(p1);plane_list.add(p2);plane_list.add(p3);
 		
@@ -32,9 +32,5 @@ public class main {
 		for (Plane plane : plane_list) {
 			System.out.println(plane.toString());
 		}
-		
-		//owo
-		//Fua va automatico el visual code
 	}
-
 }
