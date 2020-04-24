@@ -13,11 +13,11 @@ public class main {
 		Plane p1 = new Plane("Germany", "Junkers", "11,1m", "3,9m", 
 				"Junkers Ju 87D", "Stuka",2810,5670,1941,354,false);
 		
-		System.out.println(p1.toString());
+		System.out.println("First run:" + p1.toString());
 		Helper.newMaxSpeed(p1, 344);
-		System.out.println(p1.toString());
+		System.out.println("Changes on speed: " + p1.toString());
 		Helper.addWeight(p1, 3000);
-		System.out.println(p1.toString());
+		System.out.println("Weight changes: " + p1.toString());
 
 		Plane p2 = new Plane("Russia", "Yakovlev", "8,48m", "2,64m", 
 				"Yakovlev Yak-1", "Yak-1",2316,2884,1940,592,false);
@@ -26,7 +26,7 @@ public class main {
 		
 		plane_list.add(p1);plane_list.add(p2);plane_list.add(p3);
 		
-		System.out.println("-----------------------------");
+		System.out.println("---------------LIST OF PLANES--------------");
 		
 		
 		for (Plane plane : plane_list) {
